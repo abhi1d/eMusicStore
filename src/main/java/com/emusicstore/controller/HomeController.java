@@ -21,11 +21,9 @@ public class HomeController {
 
     @RequestMapping("/productList")
     public String getProducts(Model model){
-        List<Product> productList = productDao.getProductList();
+        List<Product> products = productDao.getProductList();
 
-        Product product = productList.get(0);
-
-        model.addAttribute(product);
+        model.addAttribute(products);
 
         return "productList";
 
