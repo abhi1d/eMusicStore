@@ -26,7 +26,10 @@ public class HomeController {
         model.addAttribute(products);
 
         return "productList";
+    }
 
-
-   }
+    @RequestMapping("/productList/viewProduct")
+    public String viewProduct(){
+        return "viewProduct";
+    }
 }
