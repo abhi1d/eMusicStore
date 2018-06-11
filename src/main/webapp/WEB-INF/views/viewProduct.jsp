@@ -17,17 +17,23 @@
         <div class ="container">
 
             <div class ="row">
-                 <div class = "col-md-5">
-                     <img src="#" alt="image" style="width: 100%; height: 300px" />
+                 <div class = "col-md-7">
+                     <img src="#" alt="image" style="width: 100%; height: 250px" />
                  </div>
 
                 <div class="col-md-5">
-                    <h1>Product Name</h1>
-                    <p>Product Description</p>
-                    <p>Manufacturer</p>
-                    <p>Category</p>
-                    <p>Condition</p>
-                    <p>Price</p>
+                    <h1>${product.productName}</h1>
+                    <p>${product.productDescription}</p>
+                    <p>
+                       <strong>Manufacturer</strong> : ${product.productManufacturer}
+                    </p>
+                    <p>
+                      <strong>Category</strong> : ${product.productCategory}
+                    </p>
+                    <p>
+                        <strong>Condition</strong> : ${product.productCondition}
+                    </p>
+                    <p>${product.productPrice}USD</p>
                 </div>
 
 
