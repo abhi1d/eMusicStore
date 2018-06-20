@@ -1,21 +1,41 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <h2 class="section-heading">Let's Get In Touch!</h2>
+                <hr class="my-4">
+                <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 ml-auto text-center">
+                <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
+                <p>123-456-6789</p>
+            </div>
+            <div class="col-lg-4 mr-auto text-center">
+                <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
+                <p>
+                    <a href="mailto:5h1dabhi@gmail.com">feedback@startbootstrap.com</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 
-<!-- FOOTER -->
-<footer>
-    <p class="pull-right"><a href="#">Back to top</a></p>
-    <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-</footer>
+<!-- Bootstrap core JavaScript -->
+<script src="<c:url value="/resources/vendor/jquery/jquery.min.js"/> "></script>
+<script src="<c:url value="/resources/vendor/bootstrap/js/bootstrap.bundle.min.js"/> "></script>
 
-</div><!-- /.container -->
+<!-- Plugin JavaScript -->
+<script src="<c:url value="/resources/vendor/jquery-easing/jquery.easing.min.js"/> "></script>
+<script src="<c:url value="/resources/vendor/scrollreveal/scrollreveal.min.js"/> "></script>
+<script src="<c:url value="/resources/vendor/magnific-popup/jquery.magnific-popup.min.js" />"></script>
 
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="<c:url value="/resources/js/jquery-3.3.1.min.js" />"><\/script>')</script>
-<script src="<c:url value="/resources/js/bootstrap.min.js" />"></script>
-<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+<!-- Custom scripts for this template -->
+<script src="<c:url value="/resources/js/creative.min.js" />"></script>
 
 </body>
+
 </html>

@@ -1,10 +1,12 @@
 <%@taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
-<%@include file="templates/header.jsp" %>
+<%@include file="/WEB-INF/views/templates/product_header.jsp" %>
 
 
 
-
+<br>
+<br>
+<br>
 <div class="container-wrapper">
     <div class = "container">
 
@@ -37,7 +39,7 @@
                   <td>${product.productCategory}</td>
                   <td>${product.productCondition}</td>
                   <td>${product.productPrice} USD</td>
-                   <td><a href="<spring:url value="/productList/viewProduct/${product.productId}" />" > <span class="glyphicon glyphicon-info-sign"></span> </a></td>
+                   <td class="alert alert-danger" ><a href="<spring:url value="/productList/viewProduct/${product.productId}" />" > <span class="glyphicon glyphicon-info-sign" ></span> </a></td>
               </tr>
              </c:forEach>
 
@@ -46,4 +48,4 @@
 
         </table>
 
-<%@include file="templates/footer.jsp"%>
+<%@include file="/WEB-INF/views/templates/footer.jsp"%>

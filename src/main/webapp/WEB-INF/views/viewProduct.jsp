@@ -1,5 +1,6 @@
 <%@taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
-<%@include file="templates/header.jsp" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@include file="/WEB-INF/views/templates/product_header.jsp" %>
 
 
 
@@ -44,4 +45,4 @@
 
 
 
-<%@include file="templates/footer.jsp"%>
+<%@include file="/WEB-INF/views/templates/footer.jsp"%>
