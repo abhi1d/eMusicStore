@@ -19,7 +19,7 @@
 
             <div class ="row">
                  <div class = "col-md-7">
-                     <img src="<c:url value="/resources/images/${product.productId}.png"/> " alt="image" style="width: 100%"/>
+                     <img src="<c:url value="/resources/images/${product.productId}.png"/> " alt="image" style=" border: 1px solid #ddd;  border-radius: 4px; padding: 5px; width: 600px; height: 400px "/>
                  </div>
 
                 <div class="col-md-5">
