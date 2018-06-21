@@ -34,7 +34,7 @@
 
             <c:forEach var="product" items="${productList}">
                 <tr>
-                    <td><img src="<c:url value="/resources/images/${product.productId}.png"/> " alt="image" style="width: 100%"/></td>
+                    <td><img src="<c:url value="/resources/images/${product.productId}.png"/> " alt="image" style=" border: 1px solid #ddd;  border-radius: 4px; padding: 5px; width: 150px; "/></td>
                     <td>${product.productName}</td>
                     <td>${product.productCategory}</td>
                     <td>${product.productCondition}</td>
