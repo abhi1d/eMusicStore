@@ -14,6 +14,8 @@
 
     <!-- Bootstrap core CSS -->
     <link href="<c:url value="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />" rel="stylesheet">
+    <!--Main CSS-->
+    <link href="<c:url value="/resources/css/main.css" />" rel="stylesheet">
 
 </head>
 <!-- NAVBAR
