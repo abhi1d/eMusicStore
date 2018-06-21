@@ -33,7 +33,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="<c:url value="/" />">MobCart</a>
+        <a class="navbar-brand js-scroll-trigger" href="<c:url value="/" />">My Shopping Cart</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -46,11 +46,11 @@
                     <a class="nav-link js-scroll-trigger" href="<c:url value="/productList" />">Products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
                 </li>
+            </ul>
+            <ul class="nav navbar-nav pull-right">
+                <li class="nav-item" ><a class="nav-link js-scroll-trigger" href="<c:url value="/admin" />" >Admin</a></li>
             </ul>
         </div>
     </div>
