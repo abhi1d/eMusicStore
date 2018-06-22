@@ -25,16 +25,16 @@
 </section>
 
 <!-- Bootstrap core JavaScript -->
-<script src="<c:url value="/resources/vendor/jquery/jquery.min.js"/> "></script>
-<script src="<c:url value="/resources/vendor/bootstrap/js/bootstrap.bundle.min.js"/> "></script>
+<script src="<c:url value="/resources/vendor/jquery/jquery.js"/> "></script>
+<script src="<c:url value="/resources/vendor/bootstrap/js/bootstrap.bundle.js"/> "></script>
 
 <!-- Plugin JavaScript -->
-<script src="<c:url value="/resources/vendor/jquery-easing/jquery.easing.min.js"/> "></script>
-<script src="<c:url value="/resources/vendor/scrollreveal/scrollreveal.min.js"/> "></script>
-<script src="<c:url value="/resources/vendor/magnific-popup/jquery.magnific-popup.min.js" />"></script>
+<script src="<c:url value="/resources/vendor/jquery-easing/jquery.easing.js"/> "></script>
+<script src="<c:url value="/resources/vendor/scrollreveal/scrollreveal.js"/> "></script>
+<script src="<c:url value="/resources/vendor/magnific-popup/jquery.magnific-popup.js" />"></script>
 
 <!-- Custom scripts for this template -->
-<script src="<c:url value="/resources/js/creative.min.js" />"></script>
+<script src="<c:url value="/resources/js/creative.js" />"></script>
 
 </body>
 
