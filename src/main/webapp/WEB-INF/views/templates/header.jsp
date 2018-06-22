@@ -15,6 +15,9 @@
     <!-- Bootstrap core CSS -->
     <link href="<c:url value="/resources/vendor/bootstrap/css/bootstrap.css" />" rel="stylesheet">
 
+    <!--Angular file-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js" ></script>
+
     <!-- Custom fonts for this template -->
     <link href="<c:url value="/resources/vendor/font-awesome/css/font-awesome.css" />" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
