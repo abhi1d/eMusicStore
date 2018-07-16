@@ -1,10 +1,12 @@
 package com.emusicstore.dao;
 
 import com.emusicstore.model.Cart;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
 import java.util.Map;
 
+@Repository
 public class CartDaoImpl implements CartDao {
 
     private Map<String, Cart> listOfCarts;
@@ -42,7 +44,7 @@ public class CartDaoImpl implements CartDao {
 
     public void delete(String cartId) {
 
-        if(listOfCarts.keySet().contains(cartId)){
+        if(!listOfCarts.keySet().contains(cartId)){
             throw  new IllegalArgumentException(String.format("Cannot delete a cart. A cart with the given id(%)" + "doesn't "+"exist" , cartId));
         }
 

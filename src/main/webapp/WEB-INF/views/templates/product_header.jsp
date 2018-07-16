@@ -17,6 +17,9 @@
     <!--Main CSS-->
     <link href="<c:url value="/resources/css/main.css" />" rel="stylesheet">
 
+    <!--Angular file-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js" ></script>
+
 </head>
 <!-- NAVBAR
 ================================================== -->

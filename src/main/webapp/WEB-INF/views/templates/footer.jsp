@@ -34,7 +34,7 @@
 <script src="<c:url value="/resources/vendor/magnific-popup/jquery.magnific-popup.js" />"></script>
 
 <!-- Custom scripts for this template -->
-<script src="<c:url value="/resources/js/creative.js" />"></script>
+<!--<script src="<c:url value="/resources/js/creative.min.js" />"></script>-->
 
 </body>
 

@@ -1,6 +1,4 @@
-<%@taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="spring" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@include file="/WEB-INF/views/templates/product_header.jsp" %>
 
 
@@ -18,7 +16,7 @@
         <section class="container" ng-app="cartApp">
             <div ng-controller="cartCtrl" ng-init="initCartId('${cartId}')"></div>
             <div>
-                <a href="" class="btn btn-danger pull-right"><span class="glyphicon glyphicon-remove-sign"></span> Clear Cart</a>
+                <a href="" class="btn btn-danger pull-left" ng-click="clearCart()"><span class="glyphicon glyphicon-remove-sign"></span> Clear Cart</a>
             </div>
 
             <table class="table table-hover">
@@ -29,7 +27,7 @@
                     <th>Price</th>
                     <th>Action</th>
                 </tr>
-                <tr ng-repeat = "item in cart.cartItems">
+                <tr ng-repeat = "item in cart.CartItem">
                     <td>{{item.product.productName}}</td>
                     <td>{{item.product.productPrice}}</td>
                     <td>{{item.quantity}}</td>
@@ -40,16 +38,16 @@
                      <th></th>
                     <th></th>
                     <th>Grand Total</th>
-                    <th>grandTotal</th>
+                    <th>{{cart.grandTotal}}</th>
                     <th></th>
                 </tr>
 
             </table>
 
-            <a href="<spring:url value="/productList" />">Continue Shopping</a>
+            <a href="<spring:url value="/productList" />" class="btn btn-default">Continue Shopping</a>
         </section>
     </div>
 </div>
 
-
+<script src="<c:url value="/resources/js/controller.js" />"></script>
 <%@include file="/WEB-INF/views/templates/footer.jsp"%>

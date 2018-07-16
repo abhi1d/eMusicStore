@@ -51,7 +51,7 @@ public class Cart {
 
         if(cartItems.containsKey(productId)){
             CartItem exisitingCartItems = cartItems.get(productId);
-            exisitingCartItems.setTotalPrice(exisitingCartItems.getQuantity() + item.getQuantity());
+            exisitingCartItems.setQuantity(exisitingCartItems.getQuantity() + item.getQuantity());
             cartItems.put(productId, exisitingCartItems);
 
         } else {

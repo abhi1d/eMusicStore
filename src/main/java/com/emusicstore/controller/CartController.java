@@ -60,7 +60,7 @@ public class CartController {
         cartDao.update(sessionId, cart);
     }
 
-    @RequestMapping(value = "remove/{productId}", method = RequestMethod.PUT)
+    @RequestMapping(value = "/remove/{productId}", method = RequestMethod.PUT)
     @ResponseStatus(value = HttpStatus.NO_CONTENT)
     public void removeItem(@PathVariable String productId, HttpServletRequest request){
         String sessionId = request.getSession(true).getId();
